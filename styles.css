@@ -1,0 +1,98 @@
+body {
+  background: linear-gradient(to right, cyan, pink, blue, tomato, yellow);
+  background-color: #232323;
+}
+#container {
+  background-image: url(./assets/image.jpg);
+  border-radius: 30px;
+  height: 680px;
+  margin: 30px auto;
+  width: 90%;
+}
+#calculator {
+  background-color: #eaedef;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.3);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  height: 640px;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+  width: 360px;
+}
+#result {
+  height: 190px;
+}
+#history {
+  color: #919191;
+  font-size: 18px;
+  height: 50px;
+  margin: 0 30px;
+  padding-top: 30px;
+  text-align: right;
+}
+#output {
+  font-size: 35px;
+  font-weight: 600;
+  height: 140px;
+  margin: 20px 30px;
+  text-align: right;
+}
+#keyboard {
+  height: 450px;
+}
+.operator,
+.number,
+.empty {
+  border-radius: 10px;
+  border-width: 0;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  height: 60px;
+  margin: 15px;
+  width: 60px;
+}
+.number,
+.empty {
+  background-color: #eaedef;
+}
+.operator {
+  background-color: #dad7d7;
+}
+
+.operator,
+.number {
+  cursor: pointer;
+}
+.operator:active,
+.number:active {
+  font-size: 15px;
+}
+.operator:focus,
+.number:focus,
+.empty:focus {
+  outline: 0;
+}
+
+button:nth-child(4) {
+  background-color: pink;
+  font-size: 25px;
+}
+button:nth-child(8) {
+  background-color: lightblue;
+  font-size: 25px;
+}
+button:nth-child(12) {
+  background-color: lightgreen;
+  font-size: 25px;
+}
+button:nth-child(16) {
+  background-color: cyan;
+  font-size: 25px;
+}
+button:nth-child(20) {
+  background-color: orange;
+  font-size: 25px;
+}
